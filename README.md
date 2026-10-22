@@ -1,4 +1,4 @@
-![Adhyayan Tiwari — Aspiring Web Developer](./assets/profile-banner-animated.svg)
+![Adhyayan Tiwari — Aspiring Web Developer](./assets/profile-banner-animated.svg?v=81d459d)
 
 ---
 
