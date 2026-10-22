@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Adhyayan Tiwari — Aspiring Web Developer</title>
+  <desc id="desc">A cosmic coding scene with a glowing spiral galaxy, orbiting math symbols, and code glyphs.</desc>
+  <defs>
+    <radialGradient id="bg" cx="78%" cy="48%" r="82%"><stop offset="0" stop-color="#14244b"/><stop offset=".52" stop-color="#0b1025"/><stop offset="1" stop-color="#070a14"/></radialGradient>
+    <radialGradient id="core"><stop stop-color="#fff7db"/><stop offset=".18" stop-color="#f8c7ff"/><stop offset=".48" stop-color="#a98cff"/><stop offset="1" stop-color="#7c5cff" stop-opacity="0"/></radialGradient>
+    <linearGradient id="arm" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#65e8ff" stop-opacity="0"/><stop offset=".42" stop-color="#73ceff" stop-opacity=".82"/><stop offset=".72" stop-color="#d39bff" stop-opacity=".74"/><stop offset="1" stop-color="#ffb6e6" stop-opacity="0"/></linearGradient>
+    <linearGradient id="titleGlow"><stop stop-color="#f8f6ff"/><stop offset="1" stop-color="#b4c8ff"/></linearGradient>
+    <linearGradient id="pill" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#171d3d"/><stop offset="1" stop-color="#11162c"/></linearGradient>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="9" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="20"/></filter>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" fill="none" stroke="#a9b8ff" stroke-opacity=".045" stroke-width="1"/></pattern>
+  </defs>
+  <style>
+    .twinkle{animation:twinkle 3.4s ease-in-out infinite alternate;transform-box:fill-box;transform-origin:center}
+    .twinkle:nth-of-type(3n){animation-delay:-1.2s}.twinkle:nth-of-type(4n){animation-delay:-2.1s}
+    .spin{transform-box:fill-box;transform-origin:center;animation:spin 52s linear infinite}
+    .orbit{transform-box:fill-box;transform-origin:930px 185px;animation:orbit 34s linear infinite}
+    .orbit2{transform-box:fill-box;transform-origin:930px 185px;animation:orbit 48s linear infinite reverse}
+    .float{animation:float 5s ease-in-out infinite}
+    .pulse{animation:pulse 4s ease-in-out infinite}
+    @keyframes twinkle{from{opacity:.22;transform:scale(.72)}to{opacity:.95;transform:scale(1.25)}}
+    @keyframes spin{to{transform:rotate(360deg)}}
+    @keyframes orbit{to{transform:rotate(360deg)}}
+    @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-7px)}}
+    @keyframes pulse{0%,100%{opacity:.68}50%{opacity:1}}
+  </style>
+  <rect width="1200" height="360" rx="22" fill="url(#bg)"/>
+  <rect width="1200" height="360" rx="22" fill="url(#grid)"/>
+  <ellipse cx="936" cy="184" rx="215" ry="150" fill="#735cff" opacity=".12" filter="url(#soft)"/>
+  <g fill="#e8e9ff">
+    <circle class="twinkle" cx="71" cy="51" r="1.5"/><circle class="twinkle" cx="240" cy="43" r="1"/><circle class="twinkle" cx="352" cy="83" r="1.2"/><circle class="twinkle" cx="481" cy="36" r="1.5"/><circle class="twinkle" cx="606" cy="71" r="1"/><circle class="twinkle" cx="764" cy="42" r="1.4"/><circle class="twinkle" cx="1103" cy="52" r="1.1"/><circle class="twinkle" cx="1140" cy="126" r="1.6"/><circle class="twinkle" cx="1100" cy="303" r="1.5"/><circle class="twinkle" cx="1040" cy="334" r="1"/><circle class="twinkle" cx="832" cy="325" r="1.3"/><circle class="twinkle" cx="705" cy="292" r="1"/><circle class="twinkle" cx="595" cy="323" r="1.4"/><circle class="twinkle" cx="430" cy="302" r="1"/><circle class="twinkle" cx="286" cy="335" r="1.5"/><circle class="twinkle" cx="145" cy="300" r="1.2"/><circle class="twinkle" cx="34" cy="242" r="1"/><circle class="twinkle" cx="67" cy="166" r="1.5"/><circle class="twinkle" cx="764" cy="130" r="1"/><circle class="twinkle" cx="1170" cy="222" r="1"/>
+  </g>
+  <g class="spin" opacity=".92">
+    <ellipse cx="930" cy="185" rx="156" ry="62" fill="none" stroke="#8b78ff" stroke-opacity=".25" stroke-width="1" transform="rotate(-27 930 185)"/>
+    <ellipse cx="930" cy="185" rx="188" ry="79" fill="none" stroke="#63dbff" stroke-opacity=".22" stroke-width="1" transform="rotate(24 930 185)"/>
+    <path d="M930 185 C986 113 1089 133 1075 194 C1063 246 969 263 904 217 C836 168 867 104 936 91 C1032 73 1113 142 1096 222" fill="none" stroke="url(#arm)" stroke-width="13" stroke-linecap="round" opacity=".72"/>
+    <path d="M930 185 C873 253 774 232 787 172 C799 121 891 105 956 151 C1024 199 993 264 924 277 C828 295 747 226 764 146" fill="none" stroke="url(#arm)" stroke-width="10" stroke-linecap="round" opacity=".57"/>
+    <path d="M930 185 C970 143 1028 152 1022 186 C1016 216 972 224 936 198 C897 171 907 136 943 127" fill="none" stroke="#fff0ff" stroke-opacity=".65" stroke-width="2"/>
+    <circle cx="930" cy="185" r="58" fill="url(#core)" filter="url(#glow)"/>
+    <circle cx="930" cy="185" r="5" fill="#fff8e8" class="pulse"/>
+  </g>
+  <g class="orbit" fill="#c9baff" font-family="monospace" font-size="19" font-weight="600">
+    <text x="930" y="72" text-anchor="middle">π</text><text x="1071" y="197">Σ</text><text x="930" y="306" text-anchor="middle">∫</text><text x="781" y="196">λ</text>
+  </g>
+  <g class="orbit2" fill="#79e5ff" font-family="monospace" font-size="16" font-weight="600">
+    <text x="1032" y="111">&lt;/&gt;</text><text x="1051" y="270">{ }</text><text x="814" y="115">01</text><text x="811" y="268">∴</text>
+  </g>
+  <g class="float" font-family="monospace" font-size="11" fill="#86dbff" opacity=".82">
+    <text x="800" y="88">&lt;html&gt;</text><text x="1024" y="323">{ learn: true }</text>
+  </g>
+  <g font-family="Arial, sans-serif">
+    <text x="72" y="89" fill="#91d9ff" font-size="12" font-weight="700" letter-spacing="3">A LITTLE CURIOSITY, A LOT OF CODE</text>
+    <text x="68" y="154" fill="url(#titleGlow)" font-size="41" font-weight="700" letter-spacing="-.8">Hi, I’m Adhyayan</text>
+    <text x="72" y="190" fill="#b8c5ed" font-size="17" font-weight="500">Aspiring Web Developer</text>
+    <rect x="72" y="218" width="362" height="1" fill="#8091c4" opacity=".26"/>
+    <text x="72" y="251" fill="#d1d9f5" font-size="14">Learning Python · JavaScript · HTML · CSS · AI</text>
+    <g transform="translate(72 279)">
+      <rect width="196" height="34" rx="17" fill="url(#pill)" stroke="#8a85ff" stroke-opacity=".4"/>
+      <circle cx="17" cy="17" r="4" fill="#7fe7d2" class="pulse"/>
+      <text x="30" y="21" fill="#d9e4ff" font-family="monospace" font-size="12">currently learning</text>
+    </g>
+    <text x="72" y="336" fill="#7180aa" font-family="monospace" font-size="11">&gt; exploring the universe, one line at a time_</text>
+  </g>
+  <path d="M22 55V22h33M1145 22h33v33M22 305v33h33M1145 338h33v-33" fill="none" stroke="#94aaff" stroke-opacity=".34" stroke-width="1.2"/>
+</svg>
