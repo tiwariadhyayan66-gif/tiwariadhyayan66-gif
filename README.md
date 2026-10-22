@@ -1,4 +1,4 @@
-![Adhyayan Tiwari — Aspiring Web Developer](./assets/profile-banner-aurora-v2.svg)
+![Adhyayan Tiwari — Aspiring Web Developer](./assets/profile-banner-cosmic-code.svg)
 
 ---
 
