@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-label="Adhyayan Tiwari — Aspiring Web Developer">
+<defs>
+  <linearGradient id="night" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1025"/><stop offset="0.52" stop-color="#111936"/><stop offset="1" stop-color="#171337"/></linearGradient>
+  <linearGradient id="aurora" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#4de2d1" stop-opacity="0"/><stop offset="0.38" stop-color="#4de2d1" stop-opacity=".45"/><stop offset=".72" stop-color="#9a7cff" stop-opacity=".38"/><stop offset="1" stop-color="#9a7cff" stop-opacity="0"/></linearGradient>
+  <linearGradient id="shine" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#c5fff5"/><stop offset="1" stop-color="#a4a0ff"/></linearGradient>
+  <radialGradient id="halo"><stop stop-color="#9d8cff" stop-opacity=".28"/><stop offset="1" stop-color="#9d8cff" stop-opacity="0"/></radialGradient>
+  <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" fill="none" stroke="#c3d2ff" stroke-opacity=".045" stroke-width="1"/></pattern>
+  <clipPath id="round"><rect width="1200" height="360" rx="28"/></clipPath>
+  <filter id="softGlow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="9"/></filter>
+</defs>
+<style>
+  text{font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+  @keyframes auroraDrift{0%,100%{transform:translateX(-16px)}50%{transform:translateX(18px)}}
+  @keyframes auroraDrift2{0%,100%{transform:translateX(14px)}50%{transform:translateX(-20px)}}
+  @keyframes twinkle{0%,100%{opacity:.22;transform:scale(.78)}50%{opacity:1;transform:scale(1.18)}}
+  @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+  @keyframes orbit{from{transform:rotate(0deg)}to{transform:rotate(360deg)}}
+  @keyframes breathe{0%,100%{opacity:.25}50%{opacity:.56}}
+  .wave1{animation:auroraDrift 12s ease-in-out infinite}.wave2{animation:auroraDrift2 16s ease-in-out infinite}
+  .s1{animation:twinkle 3.8s ease-in-out infinite;transform-origin:880px 95px}.s2{animation:twinkle 4.6s ease-in-out infinite 1s;transform-origin:1090px 105px}.s3{animation:twinkle 3.4s ease-in-out infinite .6s;transform-origin:1040px 245px}.s4{animation:twinkle 5s ease-in-out infinite 1.8s;transform-origin:835px 205px}
+  .float{animation:float 6s ease-in-out infinite}.orbit{animation:orbit 28s linear infinite;transform-origin:990px 160px}.glow{animation:breathe 6s ease-in-out infinite}
+</style>
+<g clip-path="url(#round)">
+  <rect width="1200" height="360" fill="url(#night)"/>
+  <rect width="1200" height="360" fill="url(#grid)"/>
+  <circle cx="990" cy="160" r="185" fill="url(#halo)"/>
+  <circle class="glow" cx="990" cy="160" r="88" fill="#9686ff" filter="url(#softGlow)"/>
+  <g fill="#d9e2ff">
+    <circle class="s1" cx="880" cy="95" r="2.4"/><circle class="s2" cx="1090" cy="105" r="2"/><circle class="s3" cx="1040" cy="245" r="2.7"/><circle class="s4" cx="835" cy="205" r="1.8"/>
+    <circle class="s2" cx="1142" cy="190" r="1.5"/><circle class="s4" cx="930" cy="58" r="1.6"/><circle class="s1" cx="1128" cy="267" r="1.9"/>
+  </g>
+  <g class="float">
+    <circle cx="990" cy="160" r="65" fill="#e4e8ff"/>
+    <path d="M1009 99a65 65 0 0 1-43 119 64 64 0 0 0 43-119Z" fill="#b9b8ec" opacity=".72"/>
+    <circle cx="973" cy="143" r="7" fill="#d0d3fa" opacity=".55"/><circle cx="1005" cy="178" r="10" fill="#d0d3fa" opacity=".42"/><circle cx="981" cy="193" r="4" fill="#d0d3fa" opacity=".48"/>
+  </g>
+  <circle cx="990" cy="160" r="91" fill="none" stroke="#c9d4ff" stroke-opacity=".18" stroke-dasharray="2 9"/>
+  <g class="orbit"><circle cx="1081" cy="160" r="4.5" fill="#73e8d7"/><circle cx="1081" cy="160" r="10" fill="#73e8d7" opacity=".25" filter="url(#softGlow)"/></g>
+  <path d="M0 294C145 245 263 327 423 286s244-14 354 9 258-52 423-11v76H0Z" fill="url(#aurora)" opacity=".48" class="wave1"/>
+  <path d="M0 322c153-54 273 11 423-17s237 24 388-3 252-3 389-39v97H0Z" fill="url(#aurora)" opacity=".32" class="wave2"/>
+  <path d="M0 296c154-47 260 30 420-7s251-12 361 4 258-43 419-20" fill="none" stroke="#7cebd9" stroke-opacity=".58" stroke-width="1.4" class="wave2"/>
+  <rect x="62" y="67" width="4" height="216" rx="2" fill="url(#shine)"/>
+  <circle cx="84" cy="80" r="4" fill="#73e8d7"/><text x="98" y="85" fill="#a6b5de" font-size="13" font-weight="600" letter-spacing="2.2">A WEB DEVELOPER IN THE MAKING</text>
+  <text x="82" y="158" fill="#f5f6ff" font-size="43" font-weight="700" letter-spacing="-.7">Adhyayan Tiwari</text>
+  <text x="84" y="201" fill="#cbd4ec" font-size="22" font-weight="500">Aspiring Web Developer</text>
+  <path d="M84 226h286" stroke="#a2b1d9" stroke-opacity=".2"/>
+  <text x="84" y="253" fill="#aebbd8" font-size="15">Learning HTML, CSS, JavaScript, Python &amp; AI</text>
+  <g fill="#b9c7e6" font-size="11" font-weight="600" letter-spacing="1.3"><text x="84" y="282">CURIOUS</text><circle cx="147" cy="278" r="2" fill="#73e8d7"/><text x="160" y="282">BUILDING</text><circle cx="232" cy="278" r="2" fill="#9e8bff"/><text x="245" y="282">IMPROVING</text></g>
+  <path d="M82 316h270" stroke="#a4b4db" stroke-opacity=".14"/>
+</g>
+</svg>
