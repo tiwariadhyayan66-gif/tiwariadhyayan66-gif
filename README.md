@@ -1,6 +1,4 @@
-<p align="center">
-  <img src="./assets/profile-banner.svg" alt="Adhyayan Tiwari — Aspiring Web Developer" width="100%" />
-</p>
+![Adhyayan Tiwari — Aspiring Web Developer](./assets/profile-banner-animated.svg)
 
 ---
 
@@ -37,7 +35,7 @@ My project showcase is coming soon. I'm building my skills now and will add proj
 ## Connect
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/adhyayantiwari/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect with me on LinkedIn" /></a>
+<a href="https://www.linkedin.com/in/adhyayantiwari/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect with me on LinkedIn" /></a>
 </p>
 
 <p align="center"><sub>Learning today, building tomorrow.</sub></p>
